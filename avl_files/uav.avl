@@ -1,0 +1,160 @@
+nTop_UAV
+#Mach
+    0.000
+#IYsym   IZsym   Zsym
+ 0      0       0.0
+#Sref    Cref    Bref
+   199.9374     26.6891     19.8904
+#Xref    Yref    Zref
+    12.9183      0.0011      0.0453
+#CDp (optional)
+    0.00000
+#
+#============================================================
+SURFACE
+Wing
+#Nchordwise  Cspace  [Nspanwise  Sspace]
+  12         1.00      20        1.00
+#
+COMPONENT
+ 1
+#
+YDUPLICATE
+     0.0000
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+   0.0219   0.0000   0.0000  22.4008   0.00
+#
+AFIL
+ NACA 2412
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+   1.5078   0.5789   0.0608  20.7604   0.00
+#
+AFIL
+ NACA 2412
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+   3.3144   1.1579   0.1217  18.8799   0.00
+#
+AFIL
+ NACA 2412
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+   6.5060   1.7368   0.1825  14.9314   0.00
+#
+AFIL
+ NACA 2412
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+  11.1952   4.7737   0.5017   8.4714   0.00
+#
+AFIL
+ NACA 2412
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+  14.1749   8.2693   0.8691   6.0743   0.00
+#
+AFIL
+ NACA 2412
+#
+CONTROL
+#name     gain    Xhinge  XYZhvec  SgnDup
+ flaperon  1.000   0.800   0.0  0.0  0.0   -1.00
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+  15.5812   9.9452   1.0453   0.1964   0.00
+#
+AFIL
+ NACA 2412
+#
+CONTROL
+#name     gain    Xhinge  XYZhvec  SgnDup
+ flaperon  1.000   0.800   0.0  0.0  0.0   -1.00
+#
+
+#============================================================
+SURFACE
+Horizontal Tail
+#Nchordwise  Cspace  [Nspanwise  Sspace]
+   8         1.00      12        1.00
+#
+COMPONENT
+ 2
+#
+YDUPLICATE
+     0.0000
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+  22.4227   0.0000   0.0000   5.5057   0.00
+#
+AFIL
+ NACA 0012
+#
+CONTROL
+#name     gain    Xhinge  XYZhvec  SgnDup
+ elevator  1.000   0.700   0.0  0.0  0.0    1.00
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+  22.6980   4.3578   0.0000   4.4045   0.00
+#
+AFIL
+ NACA 0012
+#
+CONTROL
+#name     gain    Xhinge  XYZhvec  SgnDup
+ elevator  1.000   0.700   0.0  0.0  0.0    1.00
+#
+
+#============================================================
+SURFACE
+Vertical Tail
+#Nchordwise  Cspace  [Nspanwise  Sspace]
+   8         1.00      10        1.00
+#
+COMPONENT
+ 3
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+  22.4227   0.0000   0.0000   1.4095   0.00
+#
+AFIL
+ NACA 0012
+#
+CONTROL
+#name     gain    Xhinge  XYZhvec  SgnDup
+ rudder    1.000   0.700   0.0  0.0  0.0    1.00
+#
+#-----------------
+SECTION
+#Xle     Yle      Zle      Chord    Ainc
+  22.7134   0.0000   2.1143   0.9867   0.00
+#
+AFIL
+ NACA 0012
+#
+CONTROL
+#name     gain    Xhinge  XYZhvec  SgnDup
+ rudder    1.000   0.700   0.0  0.0  0.0    1.00
+#
+

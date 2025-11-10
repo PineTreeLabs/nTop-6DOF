@@ -1,0 +1,21 @@
+LOAD
+C:\Users\bradrothenberg\OneDrive - nTop\OUT\parts\nTopAVL\nTop6DOF\avl_files\uav.avl
+MASS
+C:\Users\bradrothenberg\OneDrive - nTop\OUT\parts\nTopAVL\nTop6DOF\avl_files\uav.mass
+OPER
+A
+A 2.0
+
+B
+B 0.0
+
+M
+M 0.25
+
+X
+FT
+avl_output.ft
+ST
+avl_output.st
+
+QUIT

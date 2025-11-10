@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AVL temporary files
+avl_files/*.ft
+avl_files/*.st
+avl_files/*.sb
+avl_files/*.fs
+avl_files/*.fe
+avl_files/*.fn
+avl_files/*.hm
+avl_files/*.vm
+avl_files/*_commands.txt
+avl_files/avl_*.txt
+avl_files/run_analysis.txt
+avl_files/avl_sweep.txt
+avl_files/avl_test.txt
+avl_files/debug_commands.txt
+avl_files/test_output.ft
+
+# Keep the generated AVL files we want
+!avl_files/uav.avl
+!avl_files/uav.mass
+!avl_files/uav.run
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Test outputs
+*.png
+*.jpg
+
+# Temporary
+temp/
+tmp/
